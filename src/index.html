@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Finder</h1>
+        <nav>
+            <button onclick="navigateToFavorites()">Favorites</button>
+        </nav>
+    </header>
+    <main>
+        <input type="text" id="search-input" placeholder="Search for a meal category...">
+        <button onclick="searchRecipes()">Search</button>
+        <div id="recipes"></div>
+    </main>
+    <script src="renderer.js"></script>
+</body>
+</html>
+
